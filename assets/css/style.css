@@ -1,0 +1,594 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;900&display=swap");
+.orange {
+  color: #ff8b38;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.white {
+  color: white;
+}
+
+.bg-black {
+  background-color: #000000;
+}
+
+.light-gray {
+  color: #a7a7a7;
+}
+
+.bg-orange {
+  background-color: #ff9b51;
+}
+
+.bg-gray {
+  background-color: #f5f5f5;
+}
+
+.gray {
+  color: #cccccc;
+}
+
+.bg-dark-gray {
+  background-color: #333333;
+}
+
+.gray-text {
+  color: #86878b;
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.border-bottom {
+  border-bottom: 2px solid;
+}
+
+@media screen and (min-width: 960px) {
+  a:hover {
+    color: white !important;
+  }
+
+  #home {
+    background: url("../images/header/home-bg.png");
+    background-size: cover;
+  }
+  #home .menu i {
+    display: none;
+  }
+  #home .menu a {
+    color: #b0b0b0 !important;
+  }
+  #home .menu a:hover {
+    color: white !important;
+  }
+  #home .menu li {
+    margin-left: 30px;
+  }
+
+  .intro {
+    padding: 100px 0px 60px 0;
+  }
+  .intro #table-form {
+    width: 40%;
+  }
+  .intro h1 {
+    font-size: 120px;
+  }
+  .intro h2 {
+    font-size: 52px;
+  }
+  .intro #white-space {
+    display: block;
+    width: 13%;
+    border: 1px solid white;
+    background-color: white;
+    color: white;
+    margin: 20px 0;
+  }
+  .intro button {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 30px;
+    color: white;
+  }
+  .intro button:hover {
+    border: 2px solid #ff8b38;
+    color: #ff8b38;
+  }
+  .intro input {
+    border: none;
+    outline: none;
+    width: 80%;
+    margin-bottom: 50px;
+  }
+  .intro .trial-form {
+    border-collapse: separate;
+    border-radius: 10%;
+    border-radius: 15px;
+    overflow: hidden;
+    perspective: 1px;
+    border-radius: 9px;
+  }
+  .intro .trial-form h2 {
+    font-size: 40px;
+  }
+  .intro #head-form {
+    padding: 70px 0 !important;
+  }
+  .intro .submit-form:hover {
+    background-color: #ff8b38;
+    cursor: pointer;
+  }
+
+  #brand {
+    box-shadow: 10px 4px 5px #888886;
+  }
+  #brand i:hover {
+    color: #ff8b38;
+  }
+
+  #feature-1 {
+    padding: 100px 0;
+  }
+  #feature-1 .tab-features button {
+    border: none;
+    display: block;
+    padding: 55px 36px;
+    font-weight: 500 !important;
+  }
+  #feature-1 .tab-features button:hover {
+    background-color: #ff8b38;
+  }
+  #feature-1 #download-button {
+    padding: 12px 25px;
+    border: none;
+  }
+  #feature-1 #download-button:hover {
+    background-color: #86878b;
+  }
+
+  #feature-2 {
+    padding: 126px 0;
+  }
+  #feature-2 #orange-space {
+    display: block;
+    width: 13%;
+    border: 1px solid #ff8b38;
+    background-color: #ff8b38;
+    color: #ff8b38;
+    margin: 20px 0;
+  }
+  #feature-2 i {
+    border: 2px solid #ff8b38;
+    color: #ff8b38;
+    border-radius: 30px;
+    margin-right: 25px;
+  }
+
+  #feature-3 {
+    padding: 212px 0;
+  }
+  #feature-3 #orange-space {
+    display: block;
+    width: 13%;
+    border: 1px solid #ff8b38;
+    color: #ff8b38;
+    margin: 20px 0;
+  }
+
+  #process img {
+    padding: 25px;
+    border: 2px solid #ff8b38;
+    border-radius: 50px;
+  }
+  #process img:hover {
+    border: 1px solid #ff8b38;
+  }
+  #process #orange-space {
+    display: block;
+    width: 7%;
+    border: 1px solid #ff8b38;
+    color: #ff8b38;
+    margin: 20px 0;
+  }
+
+  #pricing #orange-space {
+    display: block;
+    width: 7%;
+    border: 1px solid #ff8b38;
+    color: #ff8b38;
+    margin: 20px 0;
+  }
+  #pricing .payment-form {
+    width: 85%;
+    background-color: white;
+  }
+  #pricing .payment-form .payment-head {
+    background-color: #333333;
+    color: white;
+  }
+  #pricing .payment-form .payment-head .payment-heading {
+    font-size: 130px;
+    font-weight: bold;
+  }
+  #pricing .payment-form .payment-body {
+    color: #86878b;
+  }
+  #pricing .payment-form .payment-body p:hover {
+    color: #ff8b38;
+  }
+  #pricing .payment-form #orange-space {
+    display: block;
+    width: 100%;
+    padding: 6px 0;
+    color: white;
+    background-color: #ff8b38;
+    margin: 20px 0;
+  }
+
+  #testemonials #orange-space {
+    display: block;
+    width: 7%;
+    color: white;
+    background-color: #ff8b38;
+    border: 1px solid #ff8b38;
+  }
+  #testemonials .quote-text {
+    top: 25%;
+  }
+  #testemonials .quote {
+    padding: 30px;
+    padding-bottom: 50px !important;
+    margin: 0;
+    background-image: url("../images/testemonials/text-background.png");
+    background-size: 100% 100%;
+    width: 83%;
+  }
+  #testemonials img {
+    margin: 0 15px;
+  }
+  #testemonials .avatar-text {
+    margin-top: 10px;
+  }
+
+  #custom {
+    padding: 100px 0;
+    background-image: url("../images/custom/custom.bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #custom #white-space {
+    display: block;
+    width: 7%;
+    border: 1px solid white;
+    background-color: white;
+    color: white;
+    margin: 20px 0;
+  }
+  #custom button {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 40px;
+    color: white;
+  }
+  #custom button:hover {
+    background-color: white;
+    color: black;
+  }
+
+  #contact-us #orange-space {
+    display: block;
+    width: 7%;
+    color: white;
+    background-color: #ff8b38;
+    border: 1px solid #ff8b38;
+  }
+  #contact-us .footer-form {
+    text-align: right;
+  }
+  #contact-us .footer-form input {
+    border: none;
+    outline: none;
+    width: 95%;
+    margin-bottom: 60px;
+  }
+  #contact-us #send-massage {
+    border: none;
+    outline: none;
+    width: 95%;
+    margin-bottom: 50px;
+    padding-bottom: 175px;
+  }
+  #contact-us #submit-massage {
+    border: 1px solid #ff8b38;
+    background-color: #ff8b38;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 6px;
+    font-weight: 500;
+  }
+  #contact-us #submit-massage:hover {
+    color: #ff8b38;
+    background-color: white;
+  }
+
+  #footer i:hover {
+    color: white;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 500px) {
+  a:hover {
+    color: white !important;
+  }
+
+  #home {
+    background: url("../images/header/home-bg.png");
+    background-size: cover;
+  }
+  #home .menu ul {
+    display: none;
+  }
+  #home .intro {
+    padding: 100px 0px 60px 0;
+  }
+  #home .intro h1 {
+    font-size: 80px;
+  }
+  #home .intro h2 {
+    font-size: 32px;
+  }
+  #home .intro p {
+    font-size: 14px;
+  }
+  #home .intro #white-space {
+    display: block;
+    width: 20%;
+    border: 1px solid white;
+    background-color: white;
+    color: white;
+    margin: 20px 0;
+  }
+  #home .intro button {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 8px 22px;
+    color: white;
+    margin-bottom: 40px;
+  }
+  #home .intro button:hover {
+    border: 2px solid #ff8b38;
+    color: #ff8b38;
+  }
+  #home .intro input {
+    border: none;
+    outline: none;
+    width: 80%;
+    margin-bottom: 50px;
+  }
+  #home .intro .trial-form {
+    border-collapse: separate;
+    border-radius: 10%;
+    border-radius: 15px;
+    overflow: hidden;
+    perspective: 1px;
+    border-radius: 9px;
+  }
+  #home .intro .trial-form h2 {
+    font-size: 40px;
+  }
+  #home .intro #head-form {
+    padding: 70px 0 !important;
+  }
+  #home .intro .submit-form:hover {
+    background-color: #ff8b38;
+    cursor: pointer;
+  }
+  #home #brand {
+    box-shadow: 10px 4px 5px #888886;
+  }
+  #home #brand .social-media {
+    font-size: 5px !important;
+  }
+  #home #brand i:hover {
+    color: #ff8b38;
+  }
+  #home #feature-1 {
+    padding: 100px 0;
+  }
+  #home #feature-1 .tab-features button {
+    border: none;
+    display: block;
+    padding: 55px 36px;
+    font-weight: 500 !important;
+  }
+  #home #feature-1 .tab-features button:hover {
+    background-color: #ff8b38;
+  }
+  #home #feature-1 #download-button {
+    padding: 12px 25px;
+    border: none;
+  }
+  #home #feature-1 #download-button:hover {
+    background-color: #86878b;
+  }
+  #home #feature-2 {
+    padding: 126px 0;
+  }
+  #home #feature-2 #orange-space {
+    display: block;
+    width: 13%;
+    border: 1px solid #ff8b38;
+    background-color: #ff8b38;
+    color: #ff8b38;
+    margin: 20px 0;
+  }
+  #home #feature-2 i {
+    border: 2px solid #ff8b38;
+    color: #ff8b38;
+    border-radius: 30px;
+    margin-right: 25px;
+  }
+  #home #feature-3 {
+    padding: 212px 0;
+  }
+  #home #feature-3 #orange-space {
+    display: block;
+    width: 13%;
+    border: 1px solid #ff8b38;
+    color: #ff8b38;
+    margin: 20px 0;
+  }
+  #home #process img {
+    padding: 25px;
+    border: 2px solid #ff8b38;
+    border-radius: 50px;
+  }
+  #home #process img:hover {
+    border: 1px solid #ff8b38;
+  }
+  #home #process #orange-space {
+    display: block;
+    width: 7%;
+    border: 1px solid #ff8b38;
+    color: #ff8b38;
+    margin: 20px 0;
+  }
+  #home #pricing #orange-space {
+    display: block;
+    width: 7%;
+    border: 1px solid #ff8b38;
+    color: #ff8b38;
+    margin: 20px 0;
+  }
+  #home #pricing .payment-form {
+    width: 85%;
+    background-color: white;
+  }
+  #home #pricing .payment-form .payment-head {
+    background-color: #333333;
+    color: white;
+  }
+  #home #pricing .payment-form .payment-head .payment-heading {
+    font-size: 130px;
+    font-weight: bold;
+  }
+  #home #pricing .payment-form .payment-body {
+    color: #86878b;
+  }
+  #home #pricing .payment-form .payment-body p:hover {
+    color: #ff8b38;
+  }
+  #home #pricing .payment-form #orange-space {
+    display: block;
+    width: 100%;
+    padding: 6px 0;
+    color: white;
+    background-color: #ff8b38;
+    margin: 20px 0;
+  }
+  #home #testemonials #orange-space {
+    display: block;
+    width: 7%;
+    color: white;
+    background-color: #ff8b38;
+    border: 1px solid #ff8b38;
+  }
+  #home #testemonials .quote-text {
+    top: 25%;
+  }
+  #home #testemonials .quote {
+    padding: 30px;
+    padding-bottom: 50px !important;
+    margin: 0;
+    background-image: url("../images/testemonials/text-background.png");
+    background-size: 100% 100%;
+    width: 83%;
+  }
+  #home #testemonials img {
+    margin: 0 15px;
+  }
+  #home #testemonials .avatar-text {
+    margin-top: 10px;
+  }
+  #home #custom {
+    padding: 100px 0;
+    background-image: url("../images/custom/custom.bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #home #custom #white-space {
+    display: block;
+    width: 7%;
+    border: 1px solid white;
+    background-color: white;
+    color: white;
+    margin: 20px 0;
+  }
+  #home #custom button {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 40px;
+    color: white;
+  }
+  #home #custom button:hover {
+    background-color: white;
+    color: black;
+  }
+  #home #contact-us #orange-space {
+    display: block;
+    width: 7%;
+    color: white;
+    background-color: #ff8b38;
+    border: 1px solid #ff8b38;
+  }
+  #home #contact-us .footer-form {
+    text-align: right;
+  }
+  #home #contact-us .footer-form input {
+    border: none;
+    outline: none;
+    width: 95%;
+    margin-bottom: 60px;
+  }
+  #home #contact-us #send-massage {
+    border: none;
+    outline: none;
+    width: 95%;
+    margin-bottom: 50px;
+    padding-bottom: 175px;
+  }
+  #home #contact-us #submit-massage {
+    border: 1px solid #ff8b38;
+    background-color: #ff8b38;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 6px;
+    font-weight: 500;
+  }
+  #home #contact-us #submit-massage:hover {
+    color: #ff8b38;
+    background-color: white;
+  }
+  #home #footer i:hover {
+    color: white;
+    cursor: pointer;
+  }
+}
+body {
+  font-family: "Raleway", sans-serif !important;
+}
+
+/*# sourceMappingURL=style.css.map */

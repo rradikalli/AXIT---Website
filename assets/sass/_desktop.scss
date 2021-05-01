@@ -1,0 +1,287 @@
+a:hover {
+    color: white !important;
+}
+
+#home {
+    background: url("../images/header/home-bg.png");
+    background-size: cover;
+    
+    .menu {
+        i { 
+            display: none;
+        }
+        a {
+            color: #b0b0b0 !important;
+        }
+        a:hover {
+            color: white !important;
+        }
+        li {
+            margin-left: 30px;
+        }
+    }
+}
+
+.intro {
+#table-form{
+    width: 40%;
+}
+    padding:  100px 0px 60px 0;
+    h1 {
+        font-size: 120px;
+    }
+    h2 {
+        font-size: 52px;
+    } 
+    #white-space {
+        display: block;
+        width: 13%;
+        border: 1px solid white;
+        background-color: white;
+        color: white;
+        margin: 20px 0;
+    }
+    button {
+        background-color: transparent;
+        border: 2px solid white;
+        padding: 10px 30px;
+        color: white;
+    }
+    button:hover {
+        border: 2px solid #ff8b38;
+        color: #ff8b38;
+    }
+    input {
+        border: none;
+        outline: none;
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    .trial-form {
+        border-collapse: separate;
+        border-radius: 10%;
+        border-radius: 15px;
+        overflow: hidden;
+        perspective: 1px;
+        border-radius: 9px;
+        h2 {
+            font-size: 40px;
+        }
+    }
+    #head-form {
+        padding: 70px 0 !important;
+    }
+    .submit-form:hover {
+        background-color: #ff8b38;
+        cursor: pointer;
+    }
+}
+
+#brand {
+    box-shadow: 10px 4px 5px #888886;
+    i:hover {
+        color: #ff8b38;
+    }
+}
+
+#feature-1 {
+    padding: 100px 0;
+    .tab-features {
+        button {
+            border: none;
+            display: block;
+            padding: 55px 36px;
+            font-weight: 500 !important;
+        }
+        button:hover {
+            background-color: #ff8b38;
+        }
+    }
+    #download-button {
+        padding: 12px 25px;
+        border: none;
+    }
+    #download-button:hover {
+        background-color: #86878b;
+    }
+}
+
+#feature-2 {
+    padding: 126px 0;
+    #orange-space {
+        display: block;
+        width: 13%;
+        border: 1px solid #ff8b38;
+        background-color: #ff8b38;
+        color: #ff8b38;
+        margin: 20px 0;
+    }
+    i {
+        border: 2px solid #ff8b38;
+        color: #ff8b38;
+        border-radius: 30px;
+        margin-right: 25px;
+    }
+}
+
+#feature-3 {
+    padding: 212px 0;
+    #orange-space {
+        display: block;
+        width: 13%;
+        border: 1px solid #ff8b38;
+        color: #ff8b38;
+        margin: 20px 0;
+    }
+}
+
+#process {
+    img {
+        padding: 25px;
+        border: 2px solid #ff8b38;
+        border-radius: 50px;
+    }
+    img:hover {
+        border: 1px solid #ff8b38;
+    }
+    #orange-space {
+        display: block;
+        width: 7%;
+        border: 1px solid #ff8b38;
+        color: #ff8b38;
+        margin: 20px 0;
+    }
+}
+
+#pricing {
+    #orange-space {
+        display: block;
+        width: 7%;
+        border: 1px solid #ff8b38;
+        color: #ff8b38;
+        margin: 20px 0;
+    }
+    .payment-form {
+        width: 85%;
+        background-color: white;
+        .payment-head {
+            background-color: #333333;
+            color: white;
+            .payment-heading {
+                font-size: 130px;
+                font-weight: bold;
+            }
+        }
+        .payment-body {
+            color: #86878b;
+            p:hover {
+                color: #ff8b38;
+            }
+        }
+        #orange-space {
+            display: block;
+            width: 100%;
+            padding: 6px 0;
+            color: white;
+            background-color: #ff8b38;
+            margin: 20px 0;
+        }
+    }
+}
+
+#testemonials {
+    #orange-space {
+        display: block;
+        width: 7%;
+        color: white;
+        background-color: #ff8b38;
+        border: 1px solid #ff8b38;
+    }
+    .quote-text {
+        top: 25%;
+    }
+    .quote {
+        padding: 30px;
+        padding-bottom: 50px !important;
+        margin: 0;
+        background-image: url("../images/testemonials/text-background.png");
+        background-size: 100% 100%;
+        width: 83%;
+    }
+    img {
+        margin: 0 15px;
+    }
+    .avatar-text {
+        margin-top: 10px;
+    }
+}
+
+#custom {
+    padding: 100px 0;
+    background-image: url("../images/custom/custom.bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    #white-space {
+        display: block;
+        width: 7%;
+        border: 1px solid white;
+        background-color: white;
+        color: white;
+        margin: 20px 0;
+    }
+    button {
+        background-color: transparent;
+        border: 2px solid white;
+        padding: 10px 40px;
+        color: white;
+    }
+    button:hover {
+        background-color: white;
+        color: black;
+    }
+}
+
+#contact-us {
+    #orange-space {
+        display: block;
+        width: 7%;
+        color: white;
+        background-color: #ff8b38;
+        border: 1px solid #ff8b38;
+    }
+    .footer-form {
+        text-align: right;
+        input {
+            border: none;
+            outline: none;
+            width: 95%;
+            margin-bottom: 60px;
+        }
+    }
+    #send-massage {
+        border: none;
+        outline: none;
+        width: 95%;
+        margin-bottom: 50px;
+        padding-bottom: 175px;
+    }
+    #submit-massage {
+        border: 1px solid #ff8b38;
+        background-color: #ff8b38;
+        color: white;
+        padding: 12px 30px;
+        border-radius: 6px;
+        font-weight: 500;
+    }
+    #submit-massage:hover {
+        color: #ff8b38;
+        background-color: white;
+    }
+}
+
+#footer {
+    i:hover {
+        color: white;
+        cursor: pointer;
+    }
+}
