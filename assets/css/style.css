@@ -64,6 +64,9 @@
     background: url("../images/header/home-bg.png");
     background-size: cover;
   }
+  #home .menu {
+    width: 100%;
+  }
   #home .menu i {
     display: none;
   }
@@ -338,6 +341,9 @@
     background: url("../images/header/home-bg.png");
     background-size: cover;
   }
+  #home .menu {
+    width: 100%;
+  }
   #home .menu ul {
     display: none;
   }
@@ -367,6 +373,7 @@
     padding: 8px 22px;
     color: white;
     margin-bottom: 40px;
+    margin-bottom: 70px;
   }
   #home .intro button:hover {
     border: 2px solid #ff8b38;
@@ -396,102 +403,146 @@
     background-color: #ff8b38;
     cursor: pointer;
   }
-  #home #brand {
-    box-shadow: 10px 4px 5px #888886;
+
+  #brand .social-media i {
+    font-size: 20px !important;
+    margin-right: 15px;
+    text-align: center;
   }
-  #home #brand .social-media {
-    font-size: 5px !important;
-  }
-  #home #brand i:hover {
+  #brand i:hover {
     color: #ff8b38;
   }
-  #home #feature-1 {
-    padding: 100px 0;
+
+  #feature-1 {
+    padding: 70px 0;
   }
-  #home #feature-1 .tab-features button {
-    border: none;
-    display: block;
-    padding: 55px 36px;
+  #feature-1 #tab-img {
+    text-align: center;
+  }
+  #feature-1 .tab-features {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  #feature-1 .tab-features button {
+    margin-bottom: 20px;
+    border: none !important;
+    display: inline;
+    padding: 35px 16px;
     font-weight: 500 !important;
+    border-radius: 0 !important;
   }
-  #home #feature-1 .tab-features button:hover {
+  #feature-1 .tab-features button:hover {
     background-color: #ff8b38;
   }
-  #home #feature-1 #download-button {
+  #feature-1 #download-button {
     padding: 12px 25px;
     border: none;
+    margin-bottom: 50px;
   }
-  #home #feature-1 #download-button:hover {
+  #feature-1 #download-button:hover {
     background-color: #86878b;
   }
-  #home #feature-2 {
-    padding: 126px 0;
+  #feature-1 #text-feature {
+    text-align: center;
   }
-  #home #feature-2 #orange-space {
+
+  #feature-2 {
+    padding: 75px 0;
+  }
+  #feature-2 .feature-center {
+    text-align: center;
+  }
+  #feature-2 p {
+    margin-bottom: 40px;
+  }
+  #feature-2 #orange-space {
     display: block;
-    width: 13%;
+    width: 17%;
     border: 1px solid #ff8b38;
     background-color: #ff8b38;
     color: #ff8b38;
-    margin: 20px 0;
+    margin: 0 auto !important;
   }
-  #home #feature-2 i {
+  #feature-2 i {
     border: 2px solid #ff8b38;
     color: #ff8b38;
     border-radius: 30px;
     margin-right: 25px;
   }
-  #home #feature-3 {
-    padding: 212px 0;
+
+  #feature-3 {
+    padding: 50px 0;
   }
-  #home #feature-3 #orange-space {
+  #feature-3 #orange-space {
     display: block;
     width: 13%;
     border: 1px solid #ff8b38;
+    background-color: #ff8b38;
     color: #ff8b38;
-    margin: 20px 0;
+    margin: 0 auto !important;
   }
-  #home #process img {
+  #feature-3 h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #feature-3 p {
+    margin-top: 40px;
+    text-align: center;
+  }
+  #feature-3 img {
+    margin-top: 30px;
+  }
+
+  #process {
+    padding: 0 !important;
+  }
+  #process img {
     padding: 25px;
     border: 2px solid #ff8b38;
     border-radius: 50px;
   }
-  #home #process img:hover {
+  #process img:hover {
     border: 1px solid #ff8b38;
   }
-  #home #process #orange-space {
+  #process #orange-space {
     display: block;
     width: 7%;
     border: 1px solid #ff8b38;
     color: #ff8b38;
     margin: 20px 0;
   }
-  #home #pricing #orange-space {
+  #process p {
+    margin-bottom: 60px;
+  }
+
+  #pricing #orange-space {
     display: block;
     width: 7%;
     border: 1px solid #ff8b38;
     color: #ff8b38;
     margin: 20px 0;
   }
-  #home #pricing .payment-form {
+  #pricing .payment-form {
     width: 85%;
     background-color: white;
+    margin: 0 auto;
+    margin-bottom: 40px;
   }
-  #home #pricing .payment-form .payment-head {
+  #pricing .payment-form .payment-head {
     background-color: #333333;
     color: white;
   }
-  #home #pricing .payment-form .payment-head .payment-heading {
+  #pricing .payment-form .payment-head .payment-heading {
     font-size: 130px;
     font-weight: bold;
   }
-  #home #pricing .payment-form .payment-body {
+  #pricing .payment-form .payment-body {
     color: #86878b;
   }
-  #home #pricing .payment-form .payment-body p:hover {
+  #pricing .payment-form .payment-body p:hover {
     color: #ff8b38;
   }
-  #home #pricing .payment-form #orange-space {
+  #pricing .payment-form #orange-space {
     display: block;
     width: 100%;
     padding: 6px 0;
@@ -499,37 +550,46 @@
     background-color: #ff8b38;
     margin: 20px 0;
   }
-  #home #testemonials #orange-space {
+
+  #testemonials {
+    padding: 0 !important;
+  }
+  #testemonials #orange-space {
     display: block;
     width: 7%;
     color: white;
     background-color: #ff8b38;
     border: 1px solid #ff8b38;
   }
-  #home #testemonials .quote-text {
+  #testemonials .quote-text {
     top: 25%;
   }
-  #home #testemonials .quote {
+  #testemonials .quote {
     padding: 30px;
     padding-bottom: 50px !important;
-    margin: 0;
+    margin: 0 auto;
     background-image: url("../images/testemonials/text-background.png");
     background-size: 100% 100%;
     width: 83%;
   }
-  #home #testemonials img {
+  #testemonials img {
     margin: 0 15px;
   }
-  #home #testemonials .avatar-text {
+  #testemonials .avatar-text {
     margin-top: 10px;
   }
-  #home #custom {
-    padding: 100px 0;
+  #testemonials .avatar {
+    margin-bottom: 60px;
+    padding-left: 20px !important;
+  }
+
+  #custom {
+    padding: 10px 0;
     background-image: url("../images/custom/custom.bg.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
-  #home #custom #white-space {
+  #custom #white-space {
     display: block;
     width: 7%;
     border: 1px solid white;
@@ -537,40 +597,47 @@
     color: white;
     margin: 20px 0;
   }
-  #home #custom button {
+  #custom button {
     background-color: transparent;
     border: 2px solid white;
     padding: 10px 40px;
     color: white;
   }
-  #home #custom button:hover {
+  #custom button:hover {
     background-color: white;
     color: black;
   }
-  #home #contact-us #orange-space {
+
+  #contact-us form {
+    text-align: center;
+  }
+  #contact-us #orange-space {
     display: block;
     width: 7%;
     color: white;
     background-color: #ff8b38;
     border: 1px solid #ff8b38;
   }
-  #home #contact-us .footer-form {
+  #contact-us .footer-form {
     text-align: right;
   }
-  #home #contact-us .footer-form input {
+  #contact-us .footer-form input {
     border: none;
     outline: none;
     width: 95%;
     margin-bottom: 60px;
   }
-  #home #contact-us #send-massage {
+  #contact-us #send-massage {
     border: none;
     outline: none;
     width: 95%;
     margin-bottom: 50px;
     padding-bottom: 175px;
   }
-  #home #contact-us #submit-massage {
+  #contact-us #submit-massage {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
     border: 1px solid #ff8b38;
     background-color: #ff8b38;
     color: white;
@@ -578,13 +645,19 @@
     border-radius: 6px;
     font-weight: 500;
   }
-  #home #contact-us #submit-massage:hover {
+  #contact-us #submit-massage:hover {
     color: #ff8b38;
     background-color: white;
   }
-  #home #footer i:hover {
+
+  #footer i:hover {
     color: white;
     cursor: pointer;
+  }
+  #footer i {
+    font-size: 15px !important;
+    text-align: center;
+    margin-left: 3px !important;
   }
 }
 body {
